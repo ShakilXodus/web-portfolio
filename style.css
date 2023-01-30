@@ -1,8 +1,9 @@
 body{
+    margin: 0;
     font-family: 'Titillium Web', sans-serif;
 }
 h1{
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Anton', sans-serif ;
 }
 
@@ -17,6 +18,17 @@ h3{
     color: rgb(80, 16, 80);
 }
 
+
+.topbanner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+section img{
+    width: 100% ;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -26,4 +38,41 @@ h3{
 }
 .half-width img{
     width: 100%;
+}
+
+
+#fb{
+    color: white;
+    background-image: linear-gradient( rgb(67, 67, 230) , rgb(105, 105, 229));
+    font-size: larger;
+    border-radius: 10px 15px;
+    padding: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+#ins{
+    color: white;
+    background-image: linear-gradient( darkorange , magenta);
+    font-size: larger;
+    border-radius: 10px ;
+    padding: 10px 20px;
+}
+#fb:hover{
+    color: rgb(237, 40, 40);
+}
+#ins:hover{
+    color: rgb(40, 50, 237);
+}
+button{
+    box-shadow: 10px 10px 30px gray ;
+    margin: 5px;
+}
+section{
+    padding-bottom: 300px;
+}
+footer p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
 }
